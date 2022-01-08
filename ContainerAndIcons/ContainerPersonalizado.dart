@@ -19,8 +19,13 @@ class MyApp extends StatelessWidget {
           title: Text("Container Exemplo Personalizado"),
         ),
         body: Center(
+		  
+		  // Primeiro criamos um child e em seguida criamos um Column para colocar os containers
           child: Column(mainAxisAlignment: MainAxisAlignment.spaceEvenly, 
+		  
+		  //Depois criamos o children para criarmos mais containers
           children: <Widget>[
+		  
             Container(
               padding: EdgeInsets.all(10),
               margin: EdgeInsets.all(50),
